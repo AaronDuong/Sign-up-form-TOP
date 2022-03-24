@@ -3,8 +3,11 @@
 }
 
 .image {
-	width: 30%;
-	background: url("../images/Aaron_Duong.png");
+	width: 30vw;
+	background: url("../images/john-rodenn-castillo-a9smyzW_1V4-unsplash.jpg");
+	background-position: center;
+	background-size: auto;
+	background-repeat: no-repeat;
 }
 img {
 	width: 100%;
@@ -12,13 +15,19 @@ img {
 }
 
 .logo {
-	width: 50%;
+	height: auto;
 	position: relative;
+	top: 20vh;
+	gap: 1vw;
+	padding: 15px 0;
+	justify-content: center;
+	align-items: center;
+	opacity: 50%;
 }
 
 .main {
 	background: rgb(216, 213, 213);
-	width: 70%;
+	width: 70vw;
 }
 
 .top {
