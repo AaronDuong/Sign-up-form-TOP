@@ -1,0 +1,70 @@
+.container {
+	display: flex;
+}
+
+.image {
+	width: 30%;
+	background: url("../images/Aaron_Duong.png");
+}
+img {
+	width: 100%;
+	height: 100%;
+}
+
+.logo {
+	width: 50%;
+	position: relative;
+}
+
+.main {
+	background: rgb(216, 213, 213);
+	width: 70%;
+}
+
+.top {
+	padding-bottom: 3rem;
+}
+
+.top * {
+	margin-top: 3rem;
+	padding: 2rem;
+}
+
+.middle {
+	background: white;
+	padding: 2rem;
+}
+
+.form-control {
+	padding: 2rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	text-transform: uppercase;
+}
+
+label {
+	display: block;
+}
+
+.bottom {
+	padding: 2rem;
+}
+
+button {
+	margin-bottom: 2rem;
+	border-radius: 5px;
+	background: green;
+	color: white;
+}
+
+a {
+	color: green;
+	text-decoration: none;
+}
+
+input {
+	border-radius: 4px;
+}
+input:required {
+	border: 2px red solid;
+}
